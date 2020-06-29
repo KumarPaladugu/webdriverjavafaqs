@@ -1,4 +1,4 @@
-package users.simulating.HowToSimulateUserDelayTest.withEventFiringWebDriver;
+package users.simulating.HowToSimulateUserDelay.withEventFiringWebDriver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

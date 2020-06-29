@@ -1,4 +1,4 @@
-package users.simulating.HowToSimulateUserDelayTest.withEventFiringWebDriver;
+package users.simulating.HowToSimulateUserDelay.withEventFiringWebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Assertions;
