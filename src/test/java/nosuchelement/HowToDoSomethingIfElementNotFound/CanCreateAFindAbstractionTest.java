@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class CanCreateAFindAbstractionTest {
 
     /* we can create an abstraction for 'finding' stuff and if not found
-       then do something */
+       then do something e.g. take a screenshot */
 
     @BeforeAll
     public static void setupClass() {
