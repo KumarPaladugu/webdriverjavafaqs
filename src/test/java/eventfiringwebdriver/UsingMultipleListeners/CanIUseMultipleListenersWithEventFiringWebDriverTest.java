@@ -23,7 +23,8 @@ public class CanIUseMultipleListenersWithEventFiringWebDriverTest {
 
         WebDriver driver = new ChromeDriver();
 
-        final EventFiringWebDriver eventFiringWebDriver = new EventFiringWebDriver(driver);
+        final EventFiringWebDriver eventFiringWebDriver =
+                                new EventFiringWebDriver(driver);
 
         BeforeEventListener before = new BeforeEventListener();
         AfterEventListener after = new AfterEventListener();
