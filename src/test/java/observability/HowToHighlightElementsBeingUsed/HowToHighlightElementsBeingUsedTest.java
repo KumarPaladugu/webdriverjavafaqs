@@ -11,6 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 public class HowToHighlightElementsBeingUsedTest {
 
     /*
@@ -54,7 +56,7 @@ public class HowToHighlightElementsBeingUsedTest {
         button.click();
 
         Assertions.assertEquals("Bob",
-                new WebDriverWait(driver,10).
+                new WebDriverWait(driver, 10).
                         until(ExpectedConditions.elementToBeClickable(
                                 By.id("_valueusername"))).getText());
 

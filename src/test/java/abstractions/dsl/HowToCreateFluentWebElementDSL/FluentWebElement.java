@@ -1,7 +1,6 @@
 package abstractions.dsl.HowToCreateFluentWebElementDSL;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.internal.WrapsElement;
 
 import java.util.ArrayList;
 import java.util.List;

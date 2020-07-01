@@ -21,7 +21,14 @@
 
         <!-- selenium dependencies -->
         <webdrivermanager.version>4.0.0</webdrivermanager.version>
+
+        <!-- periodically check v4 compatibility -->
+        <!--
+            <selenium-java.version>4.0.0-alpha-6</selenium-java.version>
+        -->
+        <!-- -->
         <selenium-java.version>3.141.59</selenium-java.version>
+
     </properties>
 
     <dependencies>
@@ -49,6 +56,13 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
+            <version>${selenium-java.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
             <version>${selenium-java.version}</version>
             <scope>test</scope>
         </dependency>
